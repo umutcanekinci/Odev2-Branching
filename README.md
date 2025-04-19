@@ -28,13 +28,18 @@ deploy branch is for releasement.
     git merge <other-branch-name>
 ```
 
-To rename the current branch
+- To rename the current branch
 ``` bash
     git branch -m <newname>
 ```
 
 
-To rename a branch while pointed to any branch (-m is short for --move)
+- To rename a branch while pointed to any branch (-m is short for --move)
 ``` bash
 git branch -m <oldname> <newname>
+```
+
+- To edit last commit message
+``` bash
+    git commit --amend -m "New commit message"
 ```
