@@ -1,6 +1,7 @@
 import pygame
 
 WHITE = (255, 255, 255)
+BLACK = (0, 0, 0);
 
 def main():
     window = initWindow()
@@ -19,7 +20,7 @@ def start(window):
             if event.type == pygame.QUIT:
                 running = False
 
-        window.fill(WHITE)
+        window.fill(BLACK)
         pygame.display.flip()
 
     pygame.quit()
